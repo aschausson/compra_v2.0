@@ -25,6 +25,7 @@ function generarTitulo(){
     var divTitulo = creaNodo(contenedor, "div", "divTitulo")
     var carro = creaNodo(divTitulo, "img", "carro")
     carro.setAttribute("src", "img/cart.png")
+    carro.setAttribute("alt", "Página para elaborar una lista de la compra")
     creaNodo(divTitulo, "h1", "titulo", "Lista de la compra")
 }
 
