@@ -31,7 +31,8 @@ function generarTitulo(){
 
 
 function generarBotones(){
-    var botonAyuda = creaBoton(contenedor, "", "botonAyuda")
+    var divAyuda = creaNodo(contenedor, "div", "divAyuda")
+    var botonAyuda = creaBoton(divAyuda, "", "botonAyuda")
     var divBotones = creaNodo(contenedor, "div", "divBotones")
     var botonSelect = creaBoton(divBotones, "", "botonSelect")
     var botonNoSelect = creaBoton(divBotones, "", "botonNoSelect")
