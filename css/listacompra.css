@@ -100,9 +100,13 @@ span{
     text-align: right;
 }
 
-#botonAyuda{
+#divAyuda{
     width: 98%;
-    text-align: right;
+    display: flex;
+    flex-flow:  row wrap;
+    align-items: center;
+    justify-content: flex-end;
+    min-height: 30px;
 }
 
 h1{
