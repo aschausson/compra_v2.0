@@ -117,6 +117,10 @@ function generarInputs(){
     inputCantidad.setAttribute("placeholder","Cant.")
     inputUnidad.setAttribute("placeholder","Unid.")
     inputProducto.setAttribute("placeholder","Producto")
+	
+    inputCantidad.setAttribute("title","Cantidad del producto")
+    inputUnidad.setAttribute("title","Unidad de medida")
+    inputProducto.setAttribute("title","Nombre del producto")
 
     var botonMas = creaBoton(divInputs, "", "botonMas")
     creaNodo(botonMas, "span", null, null, null, "glyphicon glyphicon-plus-sign")
